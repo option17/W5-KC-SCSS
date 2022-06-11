@@ -1,0 +1,16 @@
+h1 {
+  -moz-columns: red;
+       columns: red;
+  font-family: "Times New Roman", Times, serif;
+  border-bottom: solid 4px;
+}
+
+h2 {
+  color: greenyellow;
+  border-bottom: dotted 4px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightblue;
+}/*# sourceMappingURL=style.css.map */
