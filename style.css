@@ -1,6 +1,5 @@
 h1 {
-  -moz-columns: red;
-       columns: red;
+  color: red;
   font-family: "Times New Roman", Times, serif;
   border-bottom: solid 4px;
 }
@@ -10,7 +9,13 @@ h2 {
   border-bottom: dotted 4px;
 }
 
-p {
+article {
+  background-color: purple;
+}
+article p {
   font-family: Arial, Helvetica, sans-serif;
   color: lightblue;
+}
+article:hover {
+  background-color: orange;
 }/*# sourceMappingURL=style.css.map */
