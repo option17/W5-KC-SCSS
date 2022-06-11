@@ -1,10 +1,11 @@
-h1{color: red;
+$main-header-color: green;
+h1{color: $main-header-color;
     font-family: 'Times New Roman', Times, serif;
     border-bottom: solid 4px;
 
 }
 h2{
-    color: greenyellow;
+    color:$main-header-color;
     border-bottom: dotted 4px;
   
 }
@@ -15,7 +16,7 @@ article{
 
     p{
         font-family: Arial, Helvetica, sans-serif;
-    color: lightblue;
+    color:$main-header-color;
     }
     &:hover{
         background-color: orange;
